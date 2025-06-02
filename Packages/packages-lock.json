@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.soupday.cc3_unity_tools": {
+      "version": "file:E:/Unity Assest/Character_Creator_and_iClone_Auto_Setup_1.4.6_for_Unity_HDRP12/Character_Creator_and_iClone_Auto_Setup_1.4.6_for_Unity_HDRP12",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.high-definition": "12.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.21",
       "depth": 2,
@@ -38,7 +46,7 @@
     },
     "com.unity.ext.nunit": {
       "version": "2.0.5",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
@@ -57,7 +65,7 @@
     },
     "com.unity.ide.rider": {
       "version": "3.0.36",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -66,7 +74,7 @@
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.23",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
@@ -148,6 +156,24 @@
         "com.unity.render-pipelines.core": "17.1.0"
       }
     },
+    "com.unity.render-pipelines.universal": {
+      "version": "17.1.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.1.0",
+        "com.unity.shadergraph": "17.1.0",
+        "com.unity.render-pipelines.universal-config": "17.0.3"
+      }
+    },
+    "com.unity.render-pipelines.universal-config": {
+      "version": "17.0.3",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.3"
+      }
+    },
     "com.unity.rendering.light-transport": {
       "version": "1.0.1",
       "depth": 2,
@@ -160,7 +186,7 @@
     },
     "com.unity.searcher": {
       "version": "4.9.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -174,16 +200,26 @@
     },
     "com.unity.shadergraph": {
       "version": "17.1.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.1.0",
         "com.unity.searcher": "4.9.3"
       }
     },
+    "com.unity.terrain-tools": {
+      "version": "5.2.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.5.1",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
